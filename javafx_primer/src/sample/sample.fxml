@@ -36,5 +36,10 @@
          <font>
             <Font name="Arial" size="12.0" />
          </font></Label>
+      <Label fx:id="theFirstErrorOne" layoutX="561.0" layoutY="160.0" prefHeight="42.0" prefWidth="120.0" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+
    </children>
 </AnchorPane>

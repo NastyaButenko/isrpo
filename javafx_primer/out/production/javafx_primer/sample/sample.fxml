@@ -28,15 +28,11 @@
             <Font name="Arial" size="12.0" />
          </font></Button>
       <Separator layoutY="200.0" prefHeight="25.0" prefWidth="704.0" />
-      <Label fx:id="maxLabe"  layoutX="395.0" layoutY="164.0" text="Максимальный элемент:">
+      <Label fx:id="MaxLabel" layoutX="395.0" layoutY="164.0" text="Максимальный элемент:">
          <font>
             <Font name="Arial" size="12.0" />
          </font></Label>
-      <Label fx:id="minLabe" layoutX="395.0" layoutY="187.0" text="Минимальный элемент: ">
-         <font>
-            <Font name="Arial" size="12.0" />
-         </font></Label>
-      <Label layoutX="60.0" layoutY="212.0" prefHeight="49.0" prefWidth="590.0" text="Если максимальный элемент в таблице больше минимального в 10 раз, то все нули заменить единицами, а отрицательные числа заменить на их значения по модулю" textAlignment="CENTER" wrapText="true">
+      <Label fx:id="MinLabel" layoutX="395.0" layoutY="187.0" text="Минимальный элемент: ">
          <font>
             <Font name="Arial" size="12.0" />
          </font></Label>
@@ -44,6 +40,6 @@
          <font>
             <Font name="Arial" size="12.0" />
          </font></Label>
+
    </children>
 </AnchorPane>
-
