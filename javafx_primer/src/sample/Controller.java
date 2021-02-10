@@ -1,5 +1,4 @@
 package sample;
-
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -33,9 +32,10 @@ public class Controller {
     @FXML
     private Button buttonStart;
     @FXML
-    private Label maxLabel;
+    private Label MaxLabel;
     @FXML
-    private Label minLabel;
+    private Label MinLabel;
+    @FXML
     ObservableList<Robot> items = FXCollections.observableArrayList();
 
     @FXML
@@ -196,8 +196,8 @@ public class Controller {
             }
 
 
-            maxLabel.setText("Максимальный элемент: " + String.valueOf(maxNum));
-            minLabel.setText("Минимальный элемент: " + String.valueOf(minNum));
+            MaxLabel.setText("Максимальный элемент: " + String.valueOf(maxNum));
+            MinLabel.setText("Минимальный элемент: " + String.valueOf(minNum));
 
             if (minNum / 10 == maxNum) {
 
@@ -234,8 +234,8 @@ public class Controller {
                 }
             }
         } catch (Exception e) {
-            maxLabel.setText("Максимальный элемент: ");
-            minLabel.setText("Минимальный элемент: ");
+            MaxLabel.setText("Максимальный элемент: ");
+            MinLabel.setText("Минимальный элемент: ");
         }
         // Обновляем таблицу.
         tableView.refresh();
